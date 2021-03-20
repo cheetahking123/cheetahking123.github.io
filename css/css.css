@@ -1,0 +1,77 @@
+html {
+    font-family:"Noto Sans TC","Arial",sans-serif;
+    font-size:24px;
+    color:#8ea4ec;
+    box-sizing: border-box;
+    margin:0;
+}
+nav{
+    text-align: center;
+    margin: 0 auto;
+    background-color: #f5f1bec4;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    color:rgb(39, 48, 48);
+    min-height: 60px;
+    border-style: dotted;
+    border-width: 2px;
+}
+nav a{
+    color:rgb(36, 44, 44);
+    text-decoration: none;
+    border-bottom-style: solid;
+    border-width: 2px;
+}
+.container{
+    max-width: 960px;
+    margin:0 auto;
+    line-height: 1.7;
+}
+.flex-grid 
+{
+    display: flex;
+    max-width: 960px;
+    margin:0 auto;
+    text-align: center;
+    overflow-wrap: normal;
+}
+.col {
+flex: 1;
+}
+h1{
+    font-size: 240%;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+}
+h2{
+    font-size: 180%;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+}
+img{
+    border-style: dotted;
+    
+}
+footer{
+    text-align: center;
+    margin: 36px 0;
+}
+form{
+    text-align: center;
+}
+
+nav ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0px 6px;
+  }
+
+
+@media (max-width: 960px) {
+    .flex-grid {
+        display: block;
+      }
+}
